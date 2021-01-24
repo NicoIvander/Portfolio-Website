@@ -1,3 +1,40 @@
+ /* unvisited link */
+ a:link {
+    color: whitesmoke;
+  }
+
+/* visited link */
+  a:visited {
+    color: whitesmoke;
+  }
+
+/* mouse over link */
+  a:hover {
+    color: whitesmoke;
+  }
+
+/* selected link */
+  a:active {
+    color: whitesmoke;
+  }
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
 /*master styles*/
 
 body {
@@ -134,3 +171,20 @@ body {
 .profile-content-wrapper h1 {
     color: lightseagreen;
 }
+
+/* Expertise Page */
+
+.expertise-content-wrapper {
+    padding: 100px;
+}
+.expertise-content-wrapper h1 {
+    color: grey;
+}
+
+/* Education History Page */
+.eh-content-wrapper {
+    padding: 50px;
+}
+
+.eh-content-wrapper h1 {
+    color: grey;
